@@ -1,5 +1,5 @@
-const PROJECT_ID = "";
-const DATASET = "";
+const PROJECT_ID = "b8rb1d6t";
+const DATASET = "production";
 
 if (!PROJECT_ID || !DATASET) {
   throw new Error(

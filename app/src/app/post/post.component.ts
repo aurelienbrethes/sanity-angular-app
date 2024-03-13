@@ -25,7 +25,6 @@ export class PostComponent implements OnInit {
 
   async getPost(slug: string): Promise<Post> {
     this.post = await this.sanityService.getPost(slug);
-    console.log(this.post);
     return this.post;
   }
 }
